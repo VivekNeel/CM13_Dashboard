@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="primary">#ff212121</color>
+   <color name="primaryDark">#ff111111</color>
+   <color name="accent">#01dc53</color>
+   <color name="cardbg">#ff212121</color>
+
+
+
+</resources>

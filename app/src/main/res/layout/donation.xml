@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="#ff12c433"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/donations_activity_container"
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent"
+        android:background="#ffeeeeee"
+
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/donate_toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="50sp"
+            android:background="@color/colorPrimary">
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </LinearLayout>
+
+
+</LinearLayout>

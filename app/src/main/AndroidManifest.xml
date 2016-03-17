@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cyanogen.unofficial.dashboard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".util.MyApplication"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Scrolling -->
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="Black Lantern"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <!-- ThemePreviewActivity -->
+        <activity
+            android:name=".activities.ThemePreviewsActivity"
+            android:label="Previews"></activity>
+
+        <!-- DonationActivity -->
+        <activity
+            android:name=".activities.DonationActivity"
+            android:label="Donate"
+            android:theme="@style/DonateTheme"></activity>
+
+        <!-- AboutDeveloperActivity -->
+        <activity android:name=".activities.AboutDeveloperActivity"
+         android:label="About Developer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <!-- AboutInfo -->
+        <activity android:name=".activities.AboutAppActivity"
+            android:label="About app"></activity>
+    </application>
+
+</manifest>

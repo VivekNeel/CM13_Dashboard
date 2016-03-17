@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.social.oneprofile.about.OneProfileAboutContactInfoView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/profile_about_default_half_padding"
+        android:paddingEnd="@dimen/profile_about_default_padding"
+        android:paddingLeft="@dimen/profile_about_default_padding"
+        android:paddingRight="@dimen/profile_about_default_padding"
+        android:paddingStart="@dimen/profile_about_default_padding"
+        android:paddingTop="@dimen/profile_about_default_padding">
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:text="profile_about_contact_info" />
+
+        <View
+            android:layout_width="26.0dip"
+            android:layout_height="27.0dip"
+            android:layout_gravity="center_vertical"
+
+            android:contentDescription="profile_about_contact_info_pluspage_edit"
+            android:duplicateParentState="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/profile_about_default_half_padding"
+        android:paddingEnd="@dimen/profile_about_default_padding"
+        android:paddingLeft="@dimen/profile_about_default_padding"
+        android:paddingRight="@dimen/profile_about_default_padding"
+        android:paddingStart="@dimen/profile_about_default_padding"
+        android:paddingTop="@dimen/profile_about_default_half_padding"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:text="profile_about_contact_info_home"
+            android:textStyle="bold" />
+
+        <View
+
+            android:layout_width="26.0dip"
+            android:layout_height="27.0dip"
+            android:layout_marginStart="@dimen/profile_about_default_half_padding"
+            android:contentDescription="profile_about_contact_info_home_edit"
+            android:duplicateParentState="true"
+            android:focusable="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginBottom="@dimen/profile_about_default_half_padding"
+        android:layout_marginEnd="@dimen/profile_about_default_padding"
+        android:layout_marginLeft="@dimen/profile_about_default_padding"
+        android:layout_marginRight="@dimen/profile_about_default_padding"
+        android:layout_marginStart="@dimen/profile_about_default_padding"
+        android:background="?android:listDivider"
+        android:visibility="gone" />
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/profile_about_default_half_padding"
+        android:paddingEnd="@dimen/profile_about_default_padding"
+        android:paddingLeft="@dimen/profile_about_default_padding"
+        android:paddingRight="@dimen/profile_about_default_padding"
+        android:paddingStart="@dimen/profile_about_default_padding"
+        android:text="profile_about_contact_info_home_default"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/profile_about_default_half_padding"
+        android:paddingEnd="@dimen/profile_about_default_padding"
+        android:paddingLeft="@dimen/profile_about_default_padding"
+        android:paddingRight="@dimen/profile_about_default_padding"
+        android:paddingStart="@dimen/profile_about_default_padding"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/profile_about_default_half_padding"
+        android:paddingEnd="@dimen/profile_about_default_padding"
+        android:paddingLeft="@dimen/profile_about_default_padding"
+        android:paddingRight="@dimen/profile_about_default_padding"
+        android:paddingStart="@dimen/profile_about_default_padding"
+        android:paddingTop="@dimen/profile_about_default_half_padding"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:text="profile_about_contact_info_work"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="26.0dip"
+            android:layout_height="27.0dip"
+            android:layout_marginStart="@dimen/profile_about_default_half_padding"
+            android:contentDescription="string/profile_about_contact_info_work_edit"
+            android:duplicateParentState="true"
+            android:focusable="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginBottom="@dimen/profile_about_default_half_padding"
+        android:layout_marginEnd="@dimen/profile_about_default_padding"
+        android:layout_marginLeft="@dimen/profile_about_default_padding"
+        android:layout_marginRight="@dimen/profile_about_default_padding"
+        android:layout_marginStart="@dimen/profile_about_default_padding"
+        android:background="?android:listDivider"
+        android:paddingBottom="@dimen/profile_about_default_half_padding"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/profile_about_default_half_padding"
+        android:paddingEnd="@dimen/profile_about_default_padding"
+        android:paddingLeft="@dimen/profile_about_default_padding"
+        android:paddingRight="@dimen/profile_about_default_padding"
+        android:paddingStart="@dimen/profile_about_default_padding"
+        android:text="string/profile_about_contact_info_work_default"
+        android:visibility="gone" />
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/profile_about_default_half_padding"
+        android:paddingEnd="@dimen/profile_about_default_padding"
+        android:paddingLeft="@dimen/profile_about_default_padding"
+        android:paddingRight="@dimen/profile_about_default_padding"
+        android:paddingStart="@dimen/profile_about_default_padding"
+        android:visibility="gone" />
+</com.google.android.libraries.social.oneprofile.about.OneProfileAboutContactInfoView>

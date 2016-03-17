@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Black Lantern</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_share">Share</string>
+    <string name="action_rate">Rate</string>
+    <string name="applink">https://play.google.com/store/apps/details?id=com.vivek.template</string>
+
+
+    <string name="about_dev_text">Bachelor of chemical engineering graduate with the passion of Android development and software development. I am an android developer for the past 2 years. And I am very passionate about android.
+
+I have had a strong interest in IT since couple of years. I have always enjoyed the challenge of being able to identify faults and work to resolve them.
+While studying I worked as an Individual app developer at Google play store. </string>
+    <string name="facebook">Connect with developer on facebook</string>
+    <string name="facebook_link">https://www.facebook.com/vivek1neel?ref=tn_tnmn</string>
+    <string name="google_plus">Connect with developer on Google plus</string>
+    <string name="google_plus_link">https://plus.google.com/102055595954380143572</string>
+    <string name="linkedln">Connect with developer on Linkedln</string>
+    <string name="linkedln_link">https://in.linkedin.com/in/vivek-neel-65585b103</string>
+    <!-- card specific -->
+    <string name="dev_mail">vivek2neel@gmail.com</string>
+    <string name="email_subject">Your Email subject here</string>
+
+
+
+
+    <!-- Donation -->
+
+    <string-array name="google_catalog_values">
+        <item>1 Euro</item>
+        <item>2 Euros</item>
+        <item>3 Euros</item>
+        <item>4 Euros</item>
+        <item>5 Euros</item>
+        <item>6 Euros</item>
+        <item>12 Euros</item>
+        <item>24 Euros</item>
+        <item>50 Euros</item>
+
+    </string-array>
+
+    <string name="donation_paypal_item">Donation</string>
+    <string name="donate">Show your support to the developer by clicking on this card!</string>
+
+    <string name="donations__description">Do you like this theme very much?and want to show your gratitude to the developer? See below</string>
+    <string name="donations__google_android_market">Donation via Google Play Store</string>
+    <string name="donations__google_android_market_not_supported_title">In-App Donations are not supported.</string>
+    <string name="donations__google_android_market_not_supported">In-App Donations are not supported. Is Google Play Store installed correctly?</string>
+    <string name="donations__google_android_market_description">Google takes 30 % off every donation!</string>
+    <string name="donations__google_android_market_donate_button">Donate!</string>
+    <string name="donations__google_android_market_text">How much?</string>
+    <string name="donations__thanks_dialog_title">Thanks!</string>
+    <string name="donations__thanks_dialog">Thanks for donating!\nI really appreciate this!</string>
+    <string name="donations__alert_dialog_title">Error occurred</string>
+    <string name="donations__alert_dialog_no_browser">No browser was found to open a website!</string>
+
+
+</resources>
