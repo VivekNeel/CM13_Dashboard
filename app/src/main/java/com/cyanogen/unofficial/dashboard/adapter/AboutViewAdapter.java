@@ -21,7 +21,7 @@ public class AboutViewAdapter extends RecyclerView.Adapter<AboutViewAdapter.MyHo
     private LayoutInflater layoutInflater;
     private List<AboutInfo> aboutInfos;
 
-    String text1 , text2;
+    
 
     public AboutViewAdapter(Context context, List<AboutInfo> aboutInfos) {
         layoutInflater = layoutInflater.from(context);
