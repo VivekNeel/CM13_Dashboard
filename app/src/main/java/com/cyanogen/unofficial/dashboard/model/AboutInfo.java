@@ -7,7 +7,7 @@ import java.util.List;
  * Created by Shiva on 14-03-2016.
  */
 public class AboutInfo {
-    public String about, about_desc;
+    private String about, about_desc;
 
     public AboutInfo() {
     }
