@@ -1,3 +1,6 @@
+https://baikal.io/badges/Vivekkumar/CyanogenMod
+https://baikal.io/Vivekkumar/CyanogenMod
+
 # CM13_Dashboard
 A Material design dashboard for CM theme engine themers
 
