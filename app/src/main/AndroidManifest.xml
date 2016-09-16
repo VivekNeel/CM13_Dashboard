@@ -47,5 +47,8 @@
         <activity android:name=".activities.AboutAppActivity"
             android:label="About app"></activity>
     </application>
+        <meta-data android:name="org.cyanogenmod.theme.name" android:value="Neat.cm14"/>
+    <meta-data android:name="org.cyanogenmod.theme.author" android:value="Vivek_Neel" />
+
 
 </manifest>
